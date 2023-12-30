@@ -12,7 +12,6 @@ window._wpemojiSettings = {
     var o;
     var s;
     var e;
-
     function c(e) {
         try {
             var t = {
@@ -22,7 +21,6 @@ window._wpemojiSettings = {
             sessionStorage.setItem(o, JSON.stringify(t));
         } catch (e) {}
     }
-
     function p(e, t, n) {
         e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
         var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
@@ -31,7 +29,6 @@ window._wpemojiSettings = {
             return e === r[t];
         });
     }
-
     function u(e, t, n) {
         switch (t) {
         case "flag":
@@ -41,7 +38,6 @@ window._wpemojiSettings = {
         }
         return !1;
     }
-
     function f(e, t, n) {
         var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
             a = r.getContext("2d", {
@@ -52,7 +48,6 @@ window._wpemojiSettings = {
             o[e] = t(a, e, n);
         }), o;
     }
-
     function t(e) {
         var t = i.createElement("script");
         t.src = e, t.defer = !0, i.head.appendChild(t);
