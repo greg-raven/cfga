@@ -6,12 +6,12 @@
 	<title>News | Citizens for Government Accountability | Page 2</title>
 	<link rel="stylesheet" type="text/css" media="all" href="../../../../wp-content/themes/twentyeleven/style.css" />
 	
-	<link rel='stylesheet' id='twentyeleven-block-style-css' href='../../../../wp-content/themes/twentyeleven/blocks.css' type='text/css' media='all' />
+	
 </head>
 <body class="archive paged category category-news category-3 wp-embed-responsive paged-2 category-paged-2 two-column right-sidebar">
 <div id="page" class="hfeed">
 <!-- #bbinclude "header.incl" -->
-<header id="branding"><hgroup><h1 id="site-title"><span><a href="/index.html" rel="home">Citizens for Government Accountability</a></span></h1><h2 id="site-description">No more waste, no more corruption, no government takeover of the water company.</h2></hgroup><a href="/index.html"><img src="/wp-content/uploads/2016/06/cropped-avc-banner.jpg" width="1000" height="288" alt="Citizens for Government Accountability" /></a><nav id="access"><div class="menu"><ul><li><a href="/index.html">Home</a></li><li class="page_item page-item-9 page_item_has_children"><a href="about/index.html">About</a><ul class='children'><li class="page_item page-item-615"><a href="/about/documents-show-apple-valley-finance-head-left-flint-mi-finance-dept-in-shambles/index.html">Documents show Puckett left Flint Finance Dept. in shambles</a></li><li class="page_item page-item-552"><a href="/about/what-the-town-of-apple-valley-spends-on-lawyers/index.html">What the Town spent on lawyers</a></li></ul></li><li class="page_item page-item-1155"><a href="/search.html">Search</a></li></ul></div></nav><!-- #access --></header><!-- #branding -->
+<header id="branding"></header><!-- #branding -->
 <!-- end bbinclude -->
 	<div id="main">
 		<section id="primary">
@@ -331,21 +331,10 @@
 <!-- #primary -->
 		<div id="secondary" class="widget-area" role="complementary">
 			<!-- #bbinclude "recent_posts.incl" -->
-<aside id="recent-posts-2" class="widget widget_recent_entries">
-	<h3 class="widget-title">
-		Recent Posts
-	</h3>
-	<ul>
-		<li> <a href="/2021/10/15/victory-confirmed/index.html">Victory confirmed!</a> </li>
-		<li> <a href="/2021/08/08/whither-apple-valley/index.html">Whither Apple Valley?</a> </li>
-		<li> <a href="/2021/07/23/court-report-eminent-domain-trial-hearing-update/index.html">Court report: Eminent domain trial hearing update (Carloni)</a> </li>
-		<li> <a href="/2021/07/22/hearing-on-town-liberty-decision-carloni/index.html">Hearing on Town/Liberty decision (Carloni)</a> </li>
-		<li> <a href="/2021/06/28/i-protest-the-proposed-solid-waste-rate-increases/index.html">I protest the proposed solid waste rate increases</a> </li>
-	</ul>
-</aside>
+<aside id="recent-posts-2" class="widget widget_recent_entries"></aside>
 <!-- end bbinclude -->
 <!-- #bbinclude "categories.incl" -->
-<aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3><ul><li><a href="/category/commentary/index.html">Commentary</a></li><li><a href="/category/information/index.html">Information</a></li><li><a href="/category/news/index.html">News</a></li></ul></aside>
+<aside id="categories-2" class="widget widget_categories"></aside>
 <!-- end bbinclude -->
 		</div>
 <!-- #secondary .widget-area -->
@@ -353,6 +342,12 @@
 <!-- #main -->
 <!-- #bbinclude "footer.incl" -->
 <footer id="colophon"></footer><!-- #colophon -->
+<script src="/_assets/js/loadHtml.js"></script>
+<script>
+	loadHtml("header", "/_assets/includes/header.htm");
+	loadHtml("#recent-posts-2", "/_assets/includes/recent-posts.htm");
+	loadHtml("#categories-2", "/_assets/includes/categories.htm");
+</script>
 <!-- end bbinclude -->
 </div>
 <!-- #page -->
