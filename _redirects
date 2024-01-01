@@ -1,0 +1,17 @@
+# redirect from Cloudflare to custom domain
+
+https://cfga.pages.dev/* https://www.applevalleycitizens.org/:splat 301!
+
+# redirect non-existant pages
+
+/2015/index.html     /index.html 301
+/2016/index.html     /index.html 301
+/2017/index.html     /index.html 301
+/2018/index.html     /index.html 301
+/2019/index.html     /index.html 301
+/2020/index.html     /index.html 301
+/2021/index.html     /index.html 301
+/author/index.html   /index.html 301
+/category/index.html /index.html 301
+/page/index.html     /index.html 301
+/tag/index.html      /index.html 301
